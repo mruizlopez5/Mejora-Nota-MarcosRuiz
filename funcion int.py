@@ -1,6 +1,6 @@
 while True:
 
-    cadena = input("introduce numeros")
+    cadena = input("introduce numeros: ")
 
     lista = list(cadena)
 
