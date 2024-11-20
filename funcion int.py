@@ -40,5 +40,8 @@ while True:
                         total = total + 9*pow(10, i)
                     elif lista[i] == "-":
                         total= total*-1
+
         print(total)
-    else: print("malplan")
+        
+    else: 
+        print("solo numeros enteros o numeros negativos enteros")
