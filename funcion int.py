@@ -1,13 +1,13 @@
 while True:
 
-
     cadena = input("introduce numeros")
 
     lista = list(cadena)
-    
-    
+
     N = len(lista)
+
     total = 0
+
     lista.reverse()
 
     des = True
@@ -19,8 +19,6 @@ while True:
             des = False
 
     if des != False:
-
-
         for i in range(N):
                     if lista[i] == "1":
                         total = total + 1*pow(10, i)
