@@ -14,7 +14,7 @@ while True:
 
     for i in range(N):
         if ":" > lista[i] > "/" or "," < lista[i] < ".":
-            a = 1
+            ""
         else:  
             des = False
 
