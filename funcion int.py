@@ -42,6 +42,6 @@ while True:
                         total= total*-1
 
         print(total)
-        
+
     else: 
-        print("solo numeros enteros o numeros negativos enteros")
+        print("sólo números enteros o números negativos enteros")
